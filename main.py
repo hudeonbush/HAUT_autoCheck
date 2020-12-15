@@ -11,9 +11,9 @@ def main():
         try:
             users = input()
             info = users.split(',')
-            phone.append(info[18827264847])
-            password.append(info[wangmin8394976])
-            sckey.append(info[SCU135754T06af2e3b2ac5dc70fed48908c9fa00da5fd8940384175])
+            phone.append(info[0])
+            password.append(info[1])
+            sckey.append(info[2])
         except:
             break
 
